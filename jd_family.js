@@ -3,8 +3,10 @@
  * @Date: 2021-01-13 13:27:41
  * @Last Modified by:   shylocks
  * @Last Modified time: 2021-01-13 13:27:41
+ ================Loon==============
+[Script]
+cron "0 0 * * *" script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_family.js
  */
-
 const $ = new Env('京东家庭号');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
