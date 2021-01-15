@@ -6,7 +6,7 @@
  ================Loon==============
 [Script]
 cron "0 0 * * *" script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_family.js,tag=京东家庭号
- */
+
 const $ = new Env('京东家庭号');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
