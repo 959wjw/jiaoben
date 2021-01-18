@@ -116,7 +116,7 @@
   - 如果使用方法一与方法二，需自行提供京东cookie填写到 [jdCookie.js](https://github.com/959wjw/jiaoben/jdCookie.js) 里面
 
    
-  - 获取京东cookie教程可参考 [浏览器获取京东cookie教程](https://github.com/959wjw/jiaoben/backUp/GetJdCookie.md) , [插件获取京东cookie教程](https://github.com/959wjw/jiaoben/backUp/GetJdCookie2.md)
+  - 获取京东cookie教程可参考 [浏览器获取京东cookie教程](https://github.com/959wjw/jiaoben/blob/main/backUp/GetJdCookie.md) , [插件获取京东cookie教程](https://github.com/959wjw/jiaoben/blob/main/backUp/GetJdCookie2.md)
 
   - 京东APP扫码获取cookie(此种方式获取的cookie有效期为90天)(执行`node getJDCookie.js`即可)
     
