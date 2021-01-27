@@ -12,7 +12,7 @@
 
 ================Loon==============
 [Script]
-cron "15 0 * * *" script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_festival.js, tag=京东手机年终奖
+cron "15 0 * * *" script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_festival.js, tag=京东手机年终奖
 
 ===============Surge=================
 京东手机年终奖 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_festival.js
